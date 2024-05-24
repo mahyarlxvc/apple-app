@@ -1,0 +1,419 @@
+{
+    "menus": [
+        {
+            "title": "راهنمای دانشجویان",
+            "subMenus": [
+                {
+                    "title": "اموزش ثبت نام"
+                },
+                {
+                    "title": "اموزش ثبت نام"
+                },
+                {
+                    "title": "اموزش ثبت نام"
+                },
+                {
+                    "title": "اموزش ثبت نام"
+                },
+                {
+                    "title": "اموزش ثبت نام"
+                },
+                {
+                    "title": "اموزش ثبت نام"
+                }
+            ]
+        },
+        {
+            "title": "منابع یادگیری",
+            "subMenus": [
+                {
+                    "title": "ویدیو"
+                },
+                {
+                    "title": "ویدیو"
+                },
+                {
+                    "title": "ویدیو"
+                },
+                {
+                    "title": "ویدیو"
+                },
+                {
+                    "title": "ویدیو"
+                }
+            ]
+        },
+        {
+            "title": "درباره ما"
+        },
+        {
+            "title": "اساتید اپل"
+        },
+        {
+            "title": "انتقادات و پیشنهادات"
+        }
+    ],
+    "course_categories": [
+        {
+            "id": "backend",
+            "title": "بک اند",
+            "courses": [
+                {
+                    "id": "python",
+                    "title": "پایتون",
+                    "duration": 25
+                },
+                {
+                    "id": ".NET",
+                    "title": "دات نت",
+                    "duration": 25
+                },
+                {
+                    "id": "C#",
+                    "title": "سی شارپ",
+                    "duration": 25
+                },
+                {
+                    "id": "C#",
+                    "title": "سی شارپ",
+                    "duration": 25
+                },
+                {
+                    "id": "C#",
+                    "title": "سی شارپ",
+                    "duration": 25
+                },
+                {
+                    "id": "C#",
+                    "title": "سی شارپ",
+                    "duration": 25
+                },
+                {
+                    "id": "C#",
+                    "title": "سی شارپ",
+                    "duration": 25
+                }
+            ]
+        },
+        {
+            "id": "frontend",
+            "title": "فرانت اند",
+            "courses": [
+                {
+                    "id": "html",
+                    "title": "اچ تی ام ال",
+                    "duration": 25
+                },
+                {
+                    "id": "html",
+                    "title": "اچ تی ام ال",
+                    "duration": 25
+                },
+                {
+                    "id": "html",
+                    "title": "اچ تی ام ال",
+                    "duration": 25
+                },
+                {
+                    "id": "html",
+                    "title": "اچ تی ام ال",
+                    "duration": 25
+                },
+                {
+                    "id": "html",
+                    "title": "اچ تی ام ال",
+                    "duration": 25
+                },
+                {
+                    "id": "html",
+                    "title": "اچ تی ام ال",
+                    "duration": 25
+                },
+                {
+                    "id": "html",
+                    "title": "اچ تی ام ال",
+                    "duration": 25
+                }
+            ]
+        },
+        {
+            "id": "security",
+            "title": "امنیت",
+            "courses": [
+                {
+                    "id": "C++",
+                    "title": "سی پلاس پلاس",
+                    "duration": 25
+                },
+                {
+                    "id": "C++",
+                    "title": "سی پلاس پلاس",
+                    "duration": 25
+                },
+                {
+                    "id": "C++",
+                    "title": "سی پلاس پلاس",
+                    "duration": 25
+                },
+                {
+                    "id": "C++",
+                    "title": "سی پلاس پلاس",
+                    "duration": 25
+                },
+                {
+                    "id": "C++",
+                    "title": "سی پلاس پلاس",
+                    "duration": 25
+                },
+                {
+                    "id": "C++",
+                    "title": "سی پلاس پلاس",
+                    "duration": 25
+                },
+                {
+                    "id": "C++",
+                    "title": "سی پلاس پلاس",
+                    "duration": 25
+                }
+            ]
+        },
+        {
+            "id": "ai",
+            "title": "هوش مصنوعی",
+            "courses": [
+                {
+                    "id": "python",
+                    "title": "پایتون",
+                    "duration": 25
+                }
+            ]
+        },
+        {
+            "id": "ai",
+            "title": "هوش مصنوعی",
+            "courses": [
+                {
+                    "id": "python",
+                    "title": "پایتون",
+                    "duration": 25
+                }
+            ]
+        },
+        {
+            "id": "ai",
+            "title": "هوش مصنوعی",
+            "courses": [
+                {
+                    "id": "python",
+                    "title": "پایتون",
+                    "duration": 25
+                }
+            ]
+        },
+        {
+            "id": "ai",
+            "title": "هوش مصنوعی",
+            "courses": [
+                {
+                    "id": "python",
+                    "title": "پایتون",
+                    "duration": 25
+                }
+            ]
+        },
+        {
+            "id": "ai",
+            "title": "هوش مصنوعی",
+            "courses": [
+                {
+                    "id": "python",
+                    "title": "پایتون",
+                    "duration": 25
+                }
+            ]
+        },
+        {
+            "id": "ai",
+            "title": "هوش مصنوعی",
+            "courses": [
+                {
+                    "id": "python",
+                    "title": "پایتون",
+                    "duration": 25
+                }
+            ]
+        },
+        {
+            "id": "ai",
+            "title": "هوش مصنوعی",
+            "courses": [
+                {
+                    "id": "python",
+                    "title": "پایتون",
+                    "duration": 25
+                }
+            ]
+        },
+        {
+            "id": "ai",
+            "title": "هوش مصنوعی",
+            "courses": [
+                {
+                    "id": "python",
+                    "title": "پایتون",
+                    "duration": 25
+                }
+            ]
+        },
+        {
+            "id": "ai",
+            "title": "هوش مصنوعی",
+            "courses": [
+                {
+                    "id": "python",
+                    "title": "پایتون",
+                    "duration": 25
+                }
+            ]
+        },
+        {
+            "id": "ai",
+            "title": "هوش مصنوعی",
+            "courses": [
+                {
+                    "id": "python",
+                    "title": "پایتون",
+                    "duration": 25
+                }
+            ]
+        },
+        {
+            "id": "ai",
+            "title": "هوش مصنوعی",
+            "courses": [
+                {
+                    "id": "python",
+                    "title": "پایتون",
+                    "duration": 25
+                }
+            ]
+        },
+        {
+            "id": "ai",
+            "title": "هوش مصنوعی",
+            "courses": [
+                {
+                    "id": "python",
+                    "title": "پایتون",
+                    "duration": 25
+                }
+            ]
+        },
+        {
+            "id": "ai",
+            "title": "هوش مصنوعی",
+            "courses": [
+                {
+                    "id": "python",
+                    "title": "پایتون",
+                    "duration": 25
+                }
+            ]
+        },
+        {
+            "id": "ai",
+            "title": "هوش مصنوعی",
+            "courses": [
+                {
+                    "id": "python",
+                    "title": "پایتون",
+                    "duration": 25
+                }
+            ]
+        }
+    ],
+    "figures": [
+        {
+            "title": "امار",
+            "count": 35024
+        },
+        {
+            "title": "امار",
+            "count": 1022
+        },
+        {
+            "title": "امار",
+            "count": 193
+        },
+        {
+            "title": "امار",
+            "count": 92
+        },
+        {
+            "title": "امار",
+            "count": 120687
+        }
+    ],
+    "all_courses": [
+        {
+            "id": "python",
+            "title": "پایتون",
+            "duration": 25
+        },
+        {
+            "id": ".NET",
+            "title": "دات نت",
+            "duration": 25
+        },
+        {
+            "id": "C#",
+            "title": "سی شارپ",
+            "duration": 25
+        },
+        {
+            "id": "html",
+            "title": "اچ تی ام ال",
+            "duration": 25
+        },
+        {
+            "id": "python",
+            "title": "پایتون",
+            "duration": 25
+        },
+        {
+            "id": "C++",
+            "title": "سی پلاس پلاس",
+            "duration": 25
+        },
+        {
+            "id": "C++",
+            "title": "سی پلاس پلاس",
+            "duration": 25
+        },
+        {
+            "id": "C++",
+            "title": "سی پلاس پلاس",
+            "duration": 25
+        },
+        {
+            "id": "C++",
+            "title": "سی پلاس پلاس",
+            "duration": 25
+        },
+        {
+            "id": "C++",
+            "title": "سی پلاس پلاس",
+            "duration": 25
+        },
+        {
+            "id": "C++",
+            "title": "سی پلاس پلاس",
+            "duration": 25
+        },
+        {
+            "id": "C++",
+            "title": "سی پلاس پلاس",
+            "duration": 25
+        }
+    ]
+}

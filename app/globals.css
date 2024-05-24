@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "IRANSans";
+  src: url('../fonts/IRANSans/IRANSans.ttf');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .flex-center {
+    @apply flex justify-center items-center
+  }
+
+  .btn-primary {
+    @apply bg-primary-color text-dark-color rounded-3xl hover:bg-dark-color hover:text-primary-color transition-colors
+  }
+
+  .btn-secondary {
+    @apply bg-dark-color text-white-color rounded-3xl hover:bg-primary-color hover:text-dark-color transition-colors
+  }
+
+  .blur-effect {
+    @apply bg-black/50 backdrop-blur-[1px] w-screen h-full fixed top-0 left-0 z-10 transition-all
+  }
+
+  .nav-item {
+    @apply font-extrabold text-dark-color
+  }
+
+  .custom-transition {
+    @apply transition-all duration-500
+  }
+
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  direction: rtl;
+  cursor: default;
+}
+
+*,
+*::after,
+*::before {
+  outline: none;
+  box-sizing: inherit;
+}
+
+main {
+  max-width: 98vw;
+  margin: 0 auto;
+}
