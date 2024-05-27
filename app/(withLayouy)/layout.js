@@ -1,11 +1,11 @@
 import localFont from "next/font/local"
-import "./globals.css";
-import Topbar from "../components/header/topbar/Topbar";
-import Navbar from "../components/header/navbar/Navbar";
-import { Providers } from "../lib/redux/Providers";
-import Footer from "../components/footer/Footer";
+import "../globals.css";
+import { Providers } from "../../lib/redux/Providers";
+import Topbar from "../../components/header/topbar/Topbar";
+import Navbar from "../../components/header/navbar/Navbar";
+import Footer from "../../components/footer/Footer";
 
-const myFont = localFont({ src: '../fonts/IRANSans/IRANSans.ttf' })
+const myFont = localFont({ src: '../../fonts/IRANSans/IRANSans.ttf' })
 
 export const metadata = {
   title: "اموزشگاه اپل",

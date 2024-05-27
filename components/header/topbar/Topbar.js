@@ -11,19 +11,19 @@ async function Topbar() {
     const categories = await getCategories()
     return (
         <section>
-            <div className='flex justify-between py-6 '>
-                <div className='w-full flex flex-col justify-center items-start'>
+            <div className='flex justify-between py-6'>
+                <div className='w-full flex flex-col justify-center items-start px-3 py-2'>
                     <Logo isLink={true} />
                     <Sidebar categoryItems={categories} menuItems={menuItems} />
                 </div>
-                <div className='flex md:flex-row flex-col gap-2 items-center justify-evenly  w-full '>
-                    <div className=' md:block hidden basis-1/2 '>
+                <div className='flex md:flex-row flex-col gap-1 items-center justify-evenly  w-full '>
+                    <div className=' md:block hidden md:basis-1/2 '>
                         <Search />
                     </div>
                     <Link href="./">
-                        <div className='basis-1/4 md:w-fit  rounded-3xl btn-primary'>
-                            <div className='flex-center md:px-4 md:h-9 px-9 h-10'>
-                                <p className='md:text-md lg:text-md font-bold text-md text-nowrap' >تقویم اموزشی</p>
+                        <div className='md:w-fit rounded-3xl btn-primary'>
+                            <div className='flex-center md:px-5 md:h-11 px-5 h-9'>
+                                <p className='md:text-base font-bold text-sm  text-nowrap' >تقویم اموزشی</p>
                                 <IconCalendar className='w-[20px]' />
 
                             </div>
@@ -31,16 +31,16 @@ async function Topbar() {
                     </Link>
                     <Link href="./">
                         <div className=' w-fit rounded-3xl md:block hidden  btn-secondary'>
-                            <div className='flex-center  md:px-4 md:h-9 px-9 h-10 '>
-                                <p className='md:text-md lg:text-md font-bold text-md text-nowrap mr-1' >0 تومان</p>
+                            <div className='flex-center  md:px-5 md:h-11 px-5 h-9 '>
+                                <p className='md:text-base font-bold text-sm  text-nowrap mr-1' >0 تومان</p>
                                 <IconShoppingCart className='w-[20px]' />
                             </div>
                         </div>
                     </Link>
                     <Link href="./login">
                         <div className=' md:w-fit  md:hidden rounded-3xl btn-primary'>
-                            <div className='flex-center  md:px-4 md:h-9 px-9 h-10 '>
-                                <p className='md:text-md lg:text-md font-bold text-md text-nowrap mr-1' >ورود/ثبت نام</p>
+                            <div className='flex-center  md:px-5 md:h-11 px-5 h-9 '>
+                                <p className='md:text-base font-bold text-sm text-nowrap mr-1' >ورود/ثبت نام</p>
                                 <IconLogin className='w-[20px]' />
                             </div>
                         </div>

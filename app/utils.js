@@ -1,4 +1,4 @@
-import { ALL_COUESES_API, CATEGORIES_API, FIGURES_API, MENUS_API } from "../constants/api"
+import { ALL_COUESES_API, CATEGORIES_API, FIGURES_API, MENUS_API, USERS_API } from "../constants/api"
 import axiosInstance from "../lib/axios/configs"
 
 const Axios_get = async (url, config = {}) => await axiosInstance.get(url, config)
@@ -9,7 +9,6 @@ const Axios_patch = async (url, data, config = {}) => await axiosInstance.patch(
 
 const Axios_delete = async (url, config = {}) => await axiosInstance.delete(url, config)
 
-// NAVBAR utils 
 
 export const getMenus = async () => {
     const res = await Axios_get(MENUS_API)
@@ -35,4 +34,8 @@ export const getLatestCourses = async (count) => {
     const startIndex = (lastIndex - count)
     const latest = courses.slice(startIndex, lastIndex)
     return latest
+}
+export const addUser = async (data) => {
+    const res = await Axios_post(USERS_API, data)
+    return res
 }

@@ -24,7 +24,7 @@ async function Navbar() {
           <div className="md:block hidden">
             <Link href="./login">
               <div className=' md:w-fit rounded-3xl btn-primary'>
-                <div className='flex-center  lg:px-4 lg:h-9 px-2 h-9 '>
+                <div className='flex-center  lg:px-4 lg:h-11 px-2 h-9 '>
                   <p className='lg:text-base font-bold text-[11px] text-nowrap mr-1' >ورود/ثبت نام</p>
                   <IconLogin className='w-[20px]' />
                 </div>

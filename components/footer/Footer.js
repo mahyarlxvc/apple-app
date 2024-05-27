@@ -56,7 +56,7 @@ function Footer() {
                     <div className='text-dark-color mt-8'>
                         <p>
                             <span className='font-bold'>
-                                آدرس ساختمان میرعماد:
+                                آدرس ساختمان میرعماد:&ensp;
                             </span>
                             تهران، خیابان مطهری، خیابان میرعماد، کوچه جنتی(۱۳)، پلاک ۳۰
                         </p>
@@ -64,7 +64,7 @@ function Footer() {
                     <div className='text-dark-color mt-2'>
                         <p>
                             <span className='font-bold'>
-                                آدرس ساختمان سنایی:
+                                آدرس ساختمان سنایی:&ensp;
                             </span>
                             تهران، خیابان سنایی، تقاطع خیابان مطهری، کوچه ۲۱، پلاک ۲
                         </p>

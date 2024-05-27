@@ -3,7 +3,7 @@ import Image from 'next/image'
 import logo from "@/public/images/apple-logo.svg"
 function Logo({ isLink }) {
     return (
-        <div className='flex relative px-8 py-3 select-none'>
+        <div className='flex relative select-none'>
             {
                 isLink ?
                     <Link href="./">

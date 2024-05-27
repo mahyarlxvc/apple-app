@@ -1,15 +1,14 @@
-import FigureCard from "../ui-components/cards/figure-card/FigureCard";
-import { getLatestCourses, getFigures } from "./utils";
-import { DUMMY_IMAGES, DUMMY_LOGOS } from "../constants/images"
-import { DUMMY_SLOGANS } from "../constants/slogans";
-import SloganCard from "../ui-components/cards/slogan-card/SloganCard";
-import LandingSlider from "../ui-components/sliders/LandingSlider";
-import CoursesSlider from "../ui-components/sliders/CoursesSlider";
-import { IconArrowLeft } from "@tabler/icons-react";
 import Link from "next/link";
-
-import IntroVideo from "../components/intro-video/IntroVideo";
-import LogoSlider from "../ui-components/sliders/LogoSliders";
+import { DUMMY_IMAGES, DUMMY_LOGOS } from "../../constants/images";
+import { DUMMY_SLOGANS } from "../../constants/slogans";
+import FigureCard from "../../ui-components/cards/figure-card/FigureCard";
+import SloganCard from "../../ui-components/cards/slogan-card/SloganCard";
+import CoursesSlider from "../../ui-components/sliders/CoursesSlider";
+import LandingSlider from "../../ui-components/sliders/LandingSlider";
+import { getFigures, getLatestCourses } from "../utils";
+import { IconArrowLeft } from "@tabler/icons-react";
+import IntroVideo from "../../components/intro-video/IntroVideo";
+import LogoSlider from "../../ui-components/sliders/LogoSliders";
 
 export default async function Home() {
   const figures = await getFigures()
